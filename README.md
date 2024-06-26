@@ -1,7 +1,7 @@
 ![GitHub last commit](https://img.shields.io/github/last-commit/shirkxyz/.dotfiles)
 ![GitHub top language](https://img.shields.io/github/languages/top/shirkxyz/.dotfiles)
 
-**WARNING - Use at your own risk!**
+**WARNING - USE AT YOUR OWN RISK!**
 
 # 1. Prerequisites:
 - [Homebrew](https://github.com/Homebrew/Brew)
