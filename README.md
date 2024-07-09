@@ -14,7 +14,7 @@
 
 **Vim-based text editor**: [NeoVim](https://formulae.brew.sh/formula/neovim)
   - Vim plugin manager (**NEOVIM INSTALL!**): [vim-plug](https://github.com/junegunn/vim-plug)
-  - **SEE ````init.vim```` FOR PLUGS!**
+  - **SEE [````init.vim````](https://github.com/Shirkxyz/.dotfiles/blob/main/.config/linux/nvim/init.vim) FOR PLUGS!**
       
 **Command line shell**: [Fish](https://formulae.brew.sh/formula/fish):
   - Fish plugin manager: [Fisher](https://github.com/jorgebucaran/fisher)
