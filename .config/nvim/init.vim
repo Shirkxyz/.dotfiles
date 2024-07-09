@@ -21,9 +21,6 @@ Plug 'EdenEast/nightfox.nvim'
 " Autopairs
 Plug 'jiangmiao/auto-pairs'
 
-" NERDtree - A file system explorer for the Vim editor
-Plug 'preservim/nerdtree'
-
 " NERDCommenter - Powerful commenting
 Plug 'preservim/nerdcommenter'
 
@@ -61,20 +58,10 @@ call plug#end()
 " Load the colorscheme
 colorscheme nordfox
 
-" NERDtree - "F2" - toggles Nerdtree
-let NERDTreeQuitOnOpen=1
-let g:NERDTreeMinimalUI=1
-nmap <F2> :NERDTreeToggle<CR>
-
-" NERDCommenter - "control -" - to comment
-nmap <C-_> <Plug>NERDCommenterToggle
-vmap <C-_> <Plug>NERDCommenterToggle<CR>gv
-
 " Airline - Tabs
 let g:airline#extensions#tabline#enabled=1
 let g:airline#extensions#tabline#fnamemode=':t'
 nmap <leader>1 :bp<CR> " Back
 nmap <leader>2 :bn<CR> " Forward
 nmap <C-w> :bd<CR> " Close
-
 
