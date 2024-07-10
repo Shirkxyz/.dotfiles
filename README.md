@@ -7,8 +7,8 @@
 ## Setup (Linux/Mac):
 **Package Manager**: [Homebrew](https://brew.sh/)
 
-**Terminal**: [iTerm2](https://formulae.brew.sh/cask/iterm2)
-
+**Terminal**: Linux: [Gnome Terminal](https://en.wikipedia.org/wiki/GNOME_Terminal) - Mac: [iTerm2](https://formulae.brew.sh/cask/iterm2)
+              
 **Version Control**: [Git](https://formulae.brew.sh/formula/git)
 - UI for git commands: [Lazygit](https://github.com/jesseduffield/lazygit)
 
