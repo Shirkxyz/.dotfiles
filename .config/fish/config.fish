@@ -16,7 +16,8 @@ if status is-interactive
     if type -q eza
       alias ll "eza -l -g --icons"
       alias lla "ll -a"
-      alias ff "fastfetch --iterm ~/.config/fastfetch/pngs/*.png --logo-width 30 --logo-height 18"
+      alias ff "fastfetch -l  ~/.config/fastfetch/pngs/01.png --logo-width 30 --logo-height 18"
     end
 
 end
+
