@@ -5,26 +5,28 @@
 > One who makes no mistakes, makes nothing at all.
 
 ## Setup (Linux/Mac):
-**Package Manager**: [Homebrew](https://brew.sh/)
+[Homebrew](https://brew.sh/) - Package Manager
 
-**Terminal**: [kitty](https://formulae.brew.sh/cask/kitty)
+[kitty](https://formulae.brew.sh/cask/kitty) - Terminal replacement.
               
-**Version Control**: [Git](https://formulae.brew.sh/formula/git)
-- UI for git commands: [Lazygit](https://github.com/jesseduffield/lazygit)
+[Git](https://formulae.brew.sh/formula/git) - Version control.
+  - [Lazygit](https://github.com/jesseduffield/lazygit) - UI for git commands.
+  
+  [NeoVim](https://formulae.brew.sh/formula/neovim) - Vim-based text editor (**Install before vim-plug!**). 
+  - [vim-plug](https://github.com/junegunn/vim-plug) - Vim plugin manager.
+  - [Node](https://formulae.brew.sh/formula/node) needed for [Conquer of Completion plugin](https://github.com/neoclide/coc.nvim).
 
-**Vim-based text editor (Install before vim-plug!)**: [NeoVim](https://formulae.brew.sh/formula/neovim)
-  - Vim plugin manager: [vim-plug](https://github.com/junegunn/vim-plug)
-  - [Node](https://formulae.brew.sh/formula/node) needed for [Conquer of Completion](https://github.com/neoclide/coc.nvim).
-
-**Command line shell**: [Fish](https://formulae.brew.sh/formula/fish):
-  - Fish plugin manager: [Fisher](https://github.com/jorgebucaran/fisher)
-  - **Plugins**: 
-    - Ultimate Fish prompt (plugin): [Tide](https://github.com/IlanCosman/tide)
-    - Directory tracker (plugin): [Z](https://github.com/jethrokuan/z)
+[Fish](https://formulae.brew.sh/formula/fish) - Command line shell.
+  - [Fisher](https://github.com/jorgebucaran/fisher) - Fish plugin manager.
+    - [Tide plugin](https://github.com/IlanCosman/tide) - Ultimate Fish prompt.
+    - [Z plugin](https://github.com/jethrokuan/z) - Directory tracker. 
 
 ## Other helpful brews/casks to install:
-- Scripting language: [Lua](https://formulae.brew.sh/formula/lua#default)
-- A modern replacement for ls: [Eza](https://formulae.brew.sh/formula/eza#default)
-- Interactive filtering tool: [Peco](https://formulae.brew.sh/formula/peco#default)
-- Neofetch replacement: [Fastfetch](https://formulae.brew.sh/formula/fastfetch)
-- Digital Image Alchemy: [ImageMagick](https://formulae.brew.sh/formula/imagemagick)
+- [Lua](https://formulae.brew.sh/formula/lua#default) - Scripting language.
+- [Eza](https://formulae.brew.sh/formula/eza#default) - A modern replacement for ls.
+- [Peco](https://formulae.brew.sh/formula/peco#default) - Interactive filtering tool.
+- [Fastfetch](https://formulae.brew.sh/formula/fastfetch) - Neofetch replacement.
+- [ImageMagick](https://formulae.brew.sh/formula/imagemagick) - Digital Image Alchemy.
+
+## Customization (theme)
+- [Rice](https://github.com/stars/Shirkxyz/lists/rice) - Make it pretty.
