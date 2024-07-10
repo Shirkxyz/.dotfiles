@@ -12,9 +12,9 @@
 **Version Control**: [Git](https://formulae.brew.sh/formula/git)
 - UI for git commands: [Lazygit](https://github.com/jesseduffield/lazygit)
 
-**Vim-based text editor**: [NeoVim](https://formulae.brew.sh/formula/neovim)
-  - Vim plugin manager (**NEOVIM INSTALL FIRST!**): [vim-plug](https://github.com/junegunn/vim-plug)
-  - **SEE [````init.vim````](https://github.com/Shirkxyz/.dotfiles/blob/main/.config/nvim/init.vim) FOR PLUGS!** ([Node](https://formulae.brew.sh/formula/node) needed for [Conquer of Completion](https://github.com/neoclide/coc.nvim)).
+**Vim-based text editor (Install before vim-plug!)**: [NeoVim](https://formulae.brew.sh/formula/neovim)
+  - Vim plugin manager: [vim-plug](https://github.com/junegunn/vim-plug)
+  - [Node](https://formulae.brew.sh/formula/node) needed for [Conquer of Completion](https://github.com/neoclide/coc.nvim).
 
 **Command line shell**: [Fish](https://formulae.brew.sh/formula/fish):
   - Fish plugin manager: [Fisher](https://github.com/jorgebucaran/fisher)
@@ -22,7 +22,8 @@
     - Ultimate Fish prompt (plugin): [Tide](https://github.com/IlanCosman/tide)
     - Directory tracker (plugin): [Z](https://github.com/jethrokuan/z)
 
-## Helpful Brews/Casks:
+## Other helpful brews/casks to install:
 - Scripting language: [Lua](https://formulae.brew.sh/formula/lua#default)
 - A modern replacement for ls: [Eza](https://formulae.brew.sh/formula/eza#default)
 - Interactive filtering tool: [Peco](https://formulae.brew.sh/formula/peco#default)
+- Neofetch replacement: [Fastfetch](https://formulae.brew.sh/formula/fastfetch)
