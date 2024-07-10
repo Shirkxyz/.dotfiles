@@ -13,9 +13,9 @@
 - UI for git commands: [Lazygit](https://github.com/jesseduffield/lazygit)
 
 **Vim-based text editor**: [NeoVim](https://formulae.brew.sh/formula/neovim)
-  - Vim plugin manager (**NEOVIM INSTALL!**): [vim-plug](https://github.com/junegunn/vim-plug)
-  - **SEE [````init.vim````](https://github.com/Shirkxyz/.dotfiles/blob/main/.config/nvim/init.vim) FOR PLUGS!**
-      
+  - Vim plugin manager (**NEOVIM INSTALL FIRST!**): [vim-plug](https://github.com/junegunn/vim-plug)
+  - **SEE [````init.vim````](https://github.com/Shirkxyz/.dotfiles/blob/main/.config/nvim/init.vim) FOR PLUGS!** ([Node](https://formulae.brew.sh/formula/node) needed for [Conquer of Completion](https://github.com/neoclide/coc.nvim)).
+
 **Command line shell**: [Fish](https://formulae.brew.sh/formula/fish):
   - Fish plugin manager: [Fisher](https://github.com/jorgebucaran/fisher)
   - **Plugins**: 
