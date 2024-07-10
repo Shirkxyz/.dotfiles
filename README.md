@@ -7,7 +7,7 @@
 ## Setup (Linux/Mac):
 **Package Manager**: [Homebrew](https://brew.sh/)
 
-**Terminal**: Linux: [Gnome Terminal](https://en.wikipedia.org/wiki/GNOME_Terminal) - Mac: [iTerm2](https://formulae.brew.sh/cask/iterm2)
+**Terminal**: [kitty](https://formulae.brew.sh/cask/kitty)
               
 **Version Control**: [Git](https://formulae.brew.sh/formula/git)
 - UI for git commands: [Lazygit](https://github.com/jesseduffield/lazygit)
@@ -27,3 +27,4 @@
 - A modern replacement for ls: [Eza](https://formulae.brew.sh/formula/eza#default)
 - Interactive filtering tool: [Peco](https://formulae.brew.sh/formula/peco#default)
 - Neofetch replacement: [Fastfetch](https://formulae.brew.sh/formula/fastfetch)
+- Digital Image Alchemy: [ImageMagick](https://formulae.brew.sh/formula/imagemagick)
