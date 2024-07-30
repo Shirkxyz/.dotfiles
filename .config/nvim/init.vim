@@ -11,6 +11,9 @@ set shiftwidth=4
 set expandtab
 set autoindent
 
+set spelllang=en,cjk
+set spellsuggest=best,9
+
 " PLUGS "{{{
 " ---------------------------------------------------------------------
 call plug#begin('~/.vim/plugged')
@@ -57,6 +60,10 @@ call plug#end()
 
 " Load the colorscheme
 colorscheme nordfox
+
+" Spellcheck hotkey
+nnoremap <silent> <D-F11> :set spell!<cr>
+inoremap <silent> <D-F11> <C-O>:set spell!<cr>
 
 " Airline - Tabs
 let g:airline#extensions#tabline#enabled=1
