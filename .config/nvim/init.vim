@@ -19,7 +19,7 @@ set spellsuggest=best,9
 call plug#begin('~/.vim/plugged')
 
 " Colorscheme
-Plug 'catppuccin/nvim', { 'as': 'catppuccin' }
+Plug 'nordtheme/vim'
 
 " Autopairs
 Plug 'jiangmiao/auto-pairs'
@@ -59,7 +59,7 @@ call plug#end()
 "}}}
 
 " Load the colorscheme
-colorscheme catppuccin-macchiato
+colorscheme nord
 
 " Spellcheck hotkey
 nnoremap <silent> <D-F11> :set spell!<cr>
