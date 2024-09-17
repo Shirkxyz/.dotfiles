@@ -6,9 +6,7 @@
 
 ## The Setup:
 ### OS:
-[Linux](https://www.debian.org/)
-
-[MacOS](https://www.apple.com/macos)
+[Linux](https://www.debian.org/) or [MacOS](https://www.apple.com/macos)
 
 ### VIM/SHELL:
 [Homebrew](https://brew.sh/) - Package Manager
