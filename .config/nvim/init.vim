@@ -19,7 +19,7 @@ set spellsuggest=best,9
 call plug#begin('~/.vim/plugged')
 
 " Colorscheme
-Plug 'nordtheme/vim'
+Plug 'dracula/vim', { 'name': 'dracula' }
 
 " Autopairs
 Plug 'jiangmiao/auto-pairs'
@@ -59,7 +59,7 @@ call plug#end()
 "}}}
 
 " Load the colorscheme
-colorscheme nord
+colorscheme dracula
 
 " Spellcheck hotkey
 nnoremap <silent> <D-F11> :set spell!<cr>
