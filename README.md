@@ -14,8 +14,7 @@
 [kitty](https://formulae.brew.sh/cask/kitty) - Terminal replacement.
               
 [Git](https://formulae.brew.sh/formula/git) - Version control.
-  - [Lazygit](https://github.com/jesseduffield/lazygit) - UI for git commands (Helpful).
-  
+
 [NeoVim](https://formulae.brew.sh/formula/neovim) - Vim-based text editor (**Install before vim-plug!**). 
   - [LazyVim](https://github.com/LazyVim/LazyVim) - Customize and extend your configs.
 
