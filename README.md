@@ -16,9 +16,8 @@
 [Git](https://formulae.brew.sh/formula/git) - Version control.
   - [Lazygit](https://github.com/jesseduffield/lazygit) - UI for git commands (Helpful).
   
-  [NeoVim](https://formulae.brew.sh/formula/neovim) - Vim-based text editor (**Install before vim-plug!**). 
-  - [vim-plug](https://github.com/junegunn/vim-plug) - Vim plugin manager.
-  - [Node](https://formulae.brew.sh/formula/node) needed for [Conquer of Completion plugin](https://github.com/neoclide/coc.nvim).
+[NeoVim](https://formulae.brew.sh/formula/neovim) - Vim-based text editor (**Install before vim-plug!**). 
+  - [LazyVim](https://github.com/LazyVim/LazyVim) - Customize and extend your configs.
 
 [Fish](https://formulae.brew.sh/formula/fish) - Command line shell.
   - [Fisher](https://github.com/jorgebucaran/fisher) - Fish plugin manager.
@@ -31,4 +30,3 @@
 - [Peco](https://formulae.brew.sh/formula/peco#default) - Interactive filtering tool.
 - [Fastfetch](https://formulae.brew.sh/formula/fastfetch) - Neofetch replacement.
 - [ImageMagick](https://formulae.brew.sh/formula/imagemagick) - Digital Image Alchemy.
-
