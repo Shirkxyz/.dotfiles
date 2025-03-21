@@ -11,7 +11,7 @@
 ### VIM/SHELL:
 [Homebrew](https://brew.sh/) - Package Manager
 
-[kitty](https://formulae.brew.sh/cask/kitty) - Terminal replacement.
+[kitty](https://formulae.brew.sh/cask/kitty) - Terminal.
               
 [Git](https://formulae.brew.sh/formula/git) - Version control.
 
