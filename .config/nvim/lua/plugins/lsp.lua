@@ -54,7 +54,7 @@ return {
           root_dir = function(...)
             return require("lspconfig.util").root_pattern(".git")(...)
           end,
-          sinble_file_support = false,
+          single_file_support = false,
           settings = {
             typescript = {
               inlayHints = {
@@ -83,7 +83,7 @@ return {
         html = {},
         lua_ls = {
           --enabled = false
-          sinble_file_support = true,
+          single_file_support = true,
           settings = {
             Lua = {
               workspace = {
