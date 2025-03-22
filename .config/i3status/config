@@ -6,18 +6,25 @@ general {
 }
 
 order += "cpu_usage"
+order += "memory"
 order += "disk /"
 order += "battery all"
 order += "tztime local"
 order += "volume master"
+
+
+disk "/" {
+  format = "FREE: %percentage_free"
+}
 
 cpu_usage {
         format= "CPU %usage"
         max_threshold= 75
 }
 
-disk "/" {
-        format = "%avail"
+memory {
+  memory_used_method = classical
+  format="MEM: %used/%total"
 }
 
 battery all {
@@ -32,7 +39,7 @@ battery all {
 }
 
 tztime local {
-        format = "%A %m-%d-%Y %I:%M%P"
+        format = "%a %m-%d-%Y %I:%M%P"
         hide_if_equals_localtime = false
 }
 
