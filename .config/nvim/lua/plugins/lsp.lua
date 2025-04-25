@@ -88,7 +88,6 @@ return {
             Lua = {
               workspace = {
                 library = {
-                  -- add Love2D support
                   "${3rd}/love2d/library",
                 },
               },
