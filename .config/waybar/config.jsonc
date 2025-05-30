@@ -5,8 +5,7 @@
     "hyprland/workspaces"
   ],
   "modules-center": [
-    "clock",
-    "custom/weather"
+    "clock"
   ],
   "modules-right": [
     "pulseaudio",
@@ -16,8 +15,7 @@
     "cpu",
     "memory",
     "tray",
-    "custom/lock",
-    "custom/power"
+    "custom/lock"
   ],
   "hyprland/workspaces": {
     "format": "{name}: {icon}",
@@ -99,10 +97,5 @@
     "tooltip": false,
     "on-click": "hyprctl dispatch exit",
     "format": ""
-  },
-  "custom/power": {
-    "tooltip": false,
-    "on-click": "systemctl poweroff",
-    "format": "⏻"
   }
 }
