@@ -15,7 +15,6 @@
     "network",
     "cpu",
     "memory",
-    "custom/docker",
     "tray",
     "custom/lock",
     "custom/power"
@@ -88,23 +87,22 @@
     },
     "on-click": "pavucontrol"
   },
+  "backlight": {
+    "device": "intel_backlight",
+    "format": "{icon} {percent}%",
+    "format-icons": [
+      "\uf185",
+      "\uf111"
+    ]
+  },
+  "custom/lock": {
+    "tooltip": false,
+    "on-click": "hyprctl dispatch exit",
+    "format": ""
+  },
   "custom/power": {
     "tooltip": false,
-    "on-click": "wlogout &",
+    "on-click": "systemctl poweroff",
     "format": "⏻"
-  },
-  "custom/docker": {
-    "format": "{}",
-    "return-type": "json",
-    "interval": 10,
-    "exec": "$(pwd)/scripts/docker-stats/docker-stats",
-    "tooltip": true
-  },
-  "custom/weather": {
-    "format": "{}",
-    "tooltip": true,
-    "interval": 1800,
-    "exec": "$(pwd)/scripts/weather-stats/weather-stats",
-    "return-type": "json"
   }
 }
